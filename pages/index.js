@@ -23,13 +23,13 @@ export default function Home() {
     <div id="demo" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/images/slider5.jpg" alt="Los Angeles" />
+                <img src="assets/images/1.webp" alt="Los Angeles" />
             </div>
             <div class="carousel-item">
-              <img src="assets/images/slider4.jpg" alt="Chicago" />
+              <img src="assets/images/2.webp" alt="Chicago" />
             </div>
             <div class="carousel-item">
-              <img src="assets/images/slider6.jpg" alt="New York" />
+              <img src="assets/images/3.webp" alt="New York" />
             </div>
         </div>
           
@@ -105,7 +105,7 @@ export default function Home() {
                                     <a class="active" id="hospital-tab" data-toggle="tab" href="#hospital" role="tab" aria-controls="hospital" aria-selected="true">
                                         <div class="campaing_items items_color_1 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/help-1.jpg" style={{width:'80px'}}  alt="icon"/>
+                                                <img src="assets/images/Women and child development icon.png" style={{width:'80px'}}  alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title" style={{textAlign:'justify'}}>Women and Child Development </h4>
@@ -118,7 +118,7 @@ export default function Home() {
                                     <a id="cancer-tab" data-toggle="tab" href="#cancer" role="tab" aria-controls="cancer" aria-selected="false">
                                         <div class="campaing_items items_color_2 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/ChildEducation.jpg" style={{width:'80px'}} alt="icon"/>
+                                                <img src="assets/images/Child Education Icon.png" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title" style={{textAlign:'justify'}}>Child Education </h4>
@@ -131,7 +131,7 @@ export default function Home() {
                                     <a id="environtment-tab" data-toggle="tab" href="#environtment" role="tab" aria-controls="environtment" aria-selected="false">
                                         <div class="campaing_items items_color_3 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/EnvironmentalProtection.jpg" style={{width:'80px'}} alt="icon"/>
+                                                <img src="assets/images/Enviromental protection.png" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 style={{textAlign:'justify'}} class="items_title">Environmental Protection </h4>
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="container">
                 <div className="row">
                         <div class="containercampaign">
-                        <img src="assets/images/Food distribution.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Food distribution.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day .</div>
                             </div>
@@ -219,7 +219,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Empowering Women socially and Economically.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Empowering Women socially and Economically.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>Our NGO’s main motto is to help women who are in need of either educational help or financial help. We help them with maximum support we can provide.</div>
                             </div>
@@ -233,7 +233,7 @@ export default function Home() {
                                 <br/>
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Child Development And Their Education.jpg" alt="Avatar" class="image"/>
+                        <img src="assets/images/Child Development And Their Education.webp" alt="Avatar" class="image"/>
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
                             </div>
@@ -247,7 +247,7 @@ export default function Home() {
                                 <br/>
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Fitness Awareness.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Fitness Awareness.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>A healthy brain resides under a healthy body as the saying says parth charitable society 
                                     Organising yoga , bicycle rally ,dance competition  etc events and making people aware about it’s benefits for each category of people .
@@ -258,7 +258,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Tree Plantation.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Tree Plantation.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>No life is possible without trees because  oxygen is essential for all living beings , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
                             </div>
@@ -267,7 +267,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Helping Animals.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Helping Animals.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
                             </div>
@@ -276,7 +276,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Healthcare.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Healthcare.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
                             </div>
@@ -285,7 +285,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Sanitation.jpg" alt="Avatar" class="image" />
+                        <img src="assets/images/Sanitation.webp" alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>As in  India we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteers of our NGO  organise awareness programs from time to time to make people remember their social responsibility.</div>
                             </div>
@@ -294,7 +294,7 @@ export default function Home() {
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Drinking Water.jpg"  alt="Avatar" class="image" />
+                        <img src="assets/images/Drinking Water.webp"  alt="Avatar" class="image" />
                             <div class="overlay">
                                 <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
                             </div>
@@ -378,7 +378,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_1">
                         <div className="volunteer_image">
-                            <img src="assets/images/Anita Singh Bisen Ji Founder.jpg" alt="Volunteer"/>
+                            <img src="assets/images/Anita Singh Bisen Ji Founder.webp" alt="Volunteer"/>
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
@@ -391,7 +391,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-12">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/pooja singh Chandel Sachiv( Secretary).jpg" className="center" alt="Volunteer"/>
+                            <img src="assets/images/pooja singh Chandel Sachiv( Secretary).webp" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -405,7 +405,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/Pooja Singh.jpg" alt="Volunteer"/>
+                            <img src="assets/images/Pooja Singh.webp" alt="Volunteer"/>
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
@@ -419,7 +419,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_2">
                         <div className="volunteer_image">
-                            <img src="assets/images/Kajal Singh Vice President.jpg"  alt="Volunteer"/>
+                            <img src="assets/images/Kajal Singh Vice President.webp"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -439,7 +439,7 @@ export default function Home() {
             <div className="col-lg-3 col-sm-12">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" className="center" alt="Volunteer"/>
+                            <img src="assets/images/Manorama Ji Chief Secreatory.webp" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -453,7 +453,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_3">
                         <div className="volunteer_image">
-                            <img src="assets/images/Shalini Pandey Vice President.jpg"  alt="Volunteer"/>
+                            <img src="assets/images/Shalini Pandey Vice President.webp"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -468,7 +468,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-12" >
                     <div className="single_volunteer mt-30 volunteer_color_4" >
                         <div className="volunteer_image" >
-                            <img src="assets/images/Sunil Singh Chief Incharge.jpg" className="center" alt="Volunteer"/>
+                            <img src="assets/images/Sunil Singh Chief Incharge.webp" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
