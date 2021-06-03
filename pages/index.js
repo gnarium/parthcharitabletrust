@@ -206,13 +206,13 @@ export default function Home() {
                 </div>
             </div> 
             </div>
-            <div className="col-lg-12 col-sm-6">
+            <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="container">
                 <div className="row">
                         <div class="containercampaign">
                         <img src="assets/images/Food distribution.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day .</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day .</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Food distribution </h6>
@@ -221,7 +221,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Empowering Women socially and Economically.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>Our NGO’s main motto is to help women who are in need of either educational help or financial help. We help them with maximum support we can provide.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>Our NGO’s main motto is to help women who are in need of either educational help or financial help. We help them with maximum support we can provide.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Empowering Women socially and Economically </h6>
@@ -235,7 +235,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Child Development And Their Education.jpg" alt="Avatar" class="image"/>
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Child Development And Their Education </h6>
@@ -249,7 +249,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Fitness Awareness.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>A healthy brain resides under a healthy body as the saying says parth charitable society 
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>A healthy brain resides under a healthy body as the saying says parth charitable society 
                                     Organising yoga , bicycle rally ,dance competition  etc events and making people aware about it’s benefits for each category of people .
                                 </div>
                             </div>
@@ -260,7 +260,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Tree Plantation.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>No life is possible without trees because  oxygen is essential for all living beings , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>No life is possible without trees because  oxygen is essential for all living beings , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title"style={{textAlign:'center'}}>Tree Plantation </h6>
@@ -269,7 +269,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Helping Animals.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Helping Animals </h6>
@@ -278,7 +278,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Healthcare.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Healthcare</h6>
@@ -287,7 +287,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Sanitation.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>As in  India we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteers of our NGO  organise awareness programs from time to time to make people remember their social responsibility.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>As in  India we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteers of our NGO  organise awareness programs from time to time to make people remember their social responsibility.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Sanitation </h6>
@@ -296,7 +296,7 @@ export default function Home() {
                     <div class="containercampaign">
                         <img src="assets/images/Drinking Water.jpg"  alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'11px'}}>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
                             </div>
                             <div class="text-center mb-30">
                                 <h6 class="title" style={{textAlign:'center'}}>Drinking Water</h6>
