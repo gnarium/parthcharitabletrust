@@ -60,7 +60,7 @@ export default function About()
                 <div className="col-lg-6">
                     <div className="video_content_3 mt-45">
                         <h4 className="video_title">We served more then 50k+ peoples</h4>
-                        <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
+                        <p>Parth Charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
                         <a href="#" className="main-btn"><i className="fa fa-heart"></i> Donate  Now</a>
                     </div> 
                 </div>
