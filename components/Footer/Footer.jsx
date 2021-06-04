@@ -82,7 +82,6 @@ export default function Footer()
             </div> 
         </div> 
         <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0&appId=810425859719573&autoLogAppEvents=1" nonce="klqXJpYg"></script>
         
         <div className="go-top-area">
         <div className="go-top-wrap">
