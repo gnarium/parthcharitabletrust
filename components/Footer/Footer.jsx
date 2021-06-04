@@ -14,7 +14,7 @@ export default function Footer()
                                 <img src="assets/images/logo.png" alt="Logo" style={{height:'80px',width:'80px'}}/>
                             </a>
                             
-                            <p style={{textAlign:'justify'}}>Parth Charitable Society is founded by Mrs Anita Singh Bishen Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.</p>
+                            <p style={{textAlign:'justify'}}>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.</p>
                             
                              
                         </div> 
