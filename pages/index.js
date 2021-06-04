@@ -485,7 +485,7 @@ export default function Home() {
     <section className="volunteer_area pt-130 pb-130">
         <div className="container">
             <div className="row">
-                <div className="col-lg-12 col-sm-12">
+                <div className="col-lg-12 col-sm-12" id="marginset">
                     <h3 className="title" style={{textAlign:'center'}}>Gallery</h3>
                         <Swiper slidesPerView={4}  spaceBetween={30} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={true}  spaceBetween={5} centeredSlides={true} autoplay=
         {{
