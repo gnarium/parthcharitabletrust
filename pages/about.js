@@ -48,6 +48,124 @@ export default function About()
             </div> 
         </div> 
     </section>
+    <section className="volunteer_area pt-130 pb-130">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-12">
+                    <div className="section_title text-center pb-30">
+                        <img src="assets/images/section_icon.png" alt="Icon"/>
+                        <h3 className="title">Our Members</h3>
+                    </div> 
+                </div>
+            </div> 
+            <div className="row">
+                <div className="col-lg-3 col-sm-6">
+                    <div className="single_volunteer mt-30 volunteer_color_1">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Anita Singh Bisen Ji Founder.jpg" alt="Volunteer"/>
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name" style={{textAlign:'left'}}><a href="#">Anita Singh Rajput Ji</a></h5>
+                                <p>Founder</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="col-lg-3 col-sm-12">
+                    <div className="single_volunteer mt-30 volunteer_color_4">
+                        <div className="volunteer_image">
+                            <img src="assets/images/pooja singh Chandel Sachiv( Secretary).jpg" className="center" alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">pooja singh Chandel</a></h5>
+                                <p>Sachiv( Secretary)</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="col-lg-3 col-sm-6">
+                    <div className="single_volunteer mt-30 volunteer_color_4">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Pooja Singh.jpg" alt="Volunteer"/>
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Pooja Singh</a></h5>
+                                <p>Treasurer</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div className="col-lg-3 col-sm-6">
+                    <div className="single_volunteer mt-30 volunteer_color_2">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Kajal.jpeg"  alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Kajal Singh</a></h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+            </div> 
+        </div> 
+    </section>
+    <div className="container" id="center">
+        <div className="row">
+            <div className="col-lg-3 col-sm-12">
+                    <div className="single_volunteer mt-30 volunteer_color_4">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" className="center" alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Manorama Ji</a></h5>
+                                <p>Chief Secreatory</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="col-lg-3 col-sm-6">
+                    <div className="single_volunteer mt-30 volunteer_color_3">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Shalini Pandey Vice President.jpg"  alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Shalini Pandey</a></h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div className="col-lg-3 col-sm-12" >
+                    <div className="single_volunteer mt-30 volunteer_color_4" >
+                        <div className="volunteer_image" >
+                            <img src="assets/images/Sunil Singh Chief Incharge.jpg" className="center" alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Sunil Singh </a></h5>
+                                <p>Chief Incharge</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+        </div>
+        &nbsp;
     
     <section className="video_area_3 pt-80 pb-130 bg_cover" style={{backgroundImage: 'url(assets/images/videobg.jpg)'}}>
         <div className="container">
