@@ -15,7 +15,7 @@ const Header = () => {
                 <nav className="navbar navbar-expand-lg">
                     <Link href="/">
                     <a className="navbar-brand">
-                        <img src="assets/images/logo.png" alt="logo"style={{height:'80px',width:'80px'}}/>
+                        <img src="assets/images/Parth_Charitable_Society_Logo.webp" alt="logo"style={{height:'80px',width:'80px'}}/>
                     </a> 
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,27 +37,6 @@ const Header = () => {
                                 </Link>
                                 
                             </li>
-                            {/* <li>
-                                <Link href="/cause">
-                                <a>
-                                    Our Cuases 
-                                    <i className="fa fa-angle-down"></i>
-                                </a>
-                                </Link>
-                                <ul className="sub-menu">
-                                    <li>
-                                        <Link href="/cause">
-                                        <a>Cuases</a>
-                                        </Link>
-                                        </li>
-                                    <li>
-                                        <Link href="/causedetails">
-                                        <a>Cuases Details</a>
-                                        </Link>
-                                        </li>
-                                </ul>
-                            </li> */}
-                            
                             <li>
                             <Link href="/cause">
                                 <a>Gallery</a>
