@@ -139,7 +139,7 @@ export default function About()
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_2">
                         <div className="volunteer_image">
-                            <img src="assets/images/Kajal.jpeg"  alt="Volunteer"/>
+                            <img src="assets/images/Kajal Singh Vice President.webp"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
