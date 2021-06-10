@@ -2,6 +2,16 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React, { useRef, useState } from "react";
 import ReactHover from 'react-hover'
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useTheme } from '@material-ui/core/styles';
+
+
 
 
 // Import Swiper React components
@@ -18,6 +28,17 @@ import SwiperCore, {
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 export default function Home() {
+  const [open, setOpen] = React.useState(false);
+  const theme = useTheme();
+  const fullScreen = useMediaQuery(theme.breakpoints.down('sm'));
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
         <div>
     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -48,7 +69,23 @@ export default function Home() {
                             <h4 class="services_title"><a href="#">Be a Volunteer</a></h4>
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                        <a href="#"><button className="btn btn-default">Read More</button></a>
+                        
+                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+                            Donate Nowx
+                        </Button>
+                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
+                            
+                                <DialogContent>
+                                    <DialogContentText>
+                                        Your Small Donation Can Make A Change.
+                                    </DialogContentText >
+                                </DialogContent>
+                            <DialogActions>
+                                <Button onClick={handleClose} color="primary" autoFocus>
+                                    Close
+                                </Button>
+                            </DialogActions>
+                        </Dialog>
                     </div> 
                 </div>
                 <div class="col-lg-4">
@@ -60,7 +97,22 @@ export default function Home() {
                             <h4 class="services_title"><a href="#">Donate Now</a></h4>
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                        <a href="#"><button className="btn btn-default">Read More</button></a>
+                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+                            Membership PopUp
+                        </Button>
+                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
+                                <DialogContent>
+                                    <DialogContentText id="alert-dialog-description">
+                                        Become A Volunteer Of Our Organization And Make A Change By Helping Others.
+                                    </DialogContentText>
+                                </DialogContent>
+                            <DialogActions>
+                                <Button onClick={handleClose} color="primary" autoFocus>
+                                    Close
+                                </Button>
+                            </DialogActions>
+                        </Dialog>
+
                     </div> 
                 </div>
                 <div class="col-lg-4">
@@ -71,9 +123,23 @@ export default function Home() {
                         <div class="services_content">
                             <h4 class="services_title"><a href="#">Send Gift</a></h4>
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
-
                         </div>
-                        <a href="#"><button className="btn btn-default">Read More</button></a>
+                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+                            Send Gift
+                        </Button>
+                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
+                                <DialogContent>
+                                    <DialogContentText id="alert-dialog-description">
+                                        A Gift can give a person smile on his face so give a gift of donation and help them to grow.
+                                    </DialogContentText>
+                                </DialogContent>
+                                <DialogActions>
+                                    
+                                    <Button  onClick={handleClose} color="primary" autoFocus>
+                                        Close
+                                    </Button>
+                                </DialogActions>
+                        </Dialog>
                     </div> 
                 </div>
             </div> 
