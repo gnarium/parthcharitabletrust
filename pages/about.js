@@ -173,7 +173,13 @@ export default function About()
                 <div className="col-lg-6">
                     <div className="video_image mt-50">
                         <img src="assets/images/services-1.jpg" alt="video"/>
-                    </div> 
+                        <Link href="https://www.youtube.com/channel/UCnX181u_1jdMFhaxEFA1Y1w">
+                        <a class="video-popup">
+                            <i class="fa fa-play"></i>
+                            <img src="assets/images/shape/shape-3.png" alt="shape"/>
+                        </a>
+                        </Link>
+                      </div> 
                 </div>
                 <div className="col-lg-6">
                     <div className="video_content_3 mt-45">
