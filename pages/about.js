@@ -87,6 +87,42 @@ export default function About()
                     </div> 
                 </div>
                 <div className="col-lg-3 col-sm-6">
+                    <div className="single_volunteer mt-30 volunteer_color_3">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Shalini Pandey Vice President.jpg"  alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Shalini Pandey</a></h5>
+                                <p>Vice President</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="col-lg-3 col-sm-12">
+                    <div className="single_volunteer mt-30 volunteer_color_4">
+                        <div className="volunteer_image">
+                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" className="center" alt="Volunteer"/>
+                             
+                        </div>
+                        <div className="volunteer_content d-flex align-items-center justify-content-center">
+                            <div className="content_wrapper">
+                                <h5 className="volunteer_name"><a href="#">Manorama Ji</a></h5>
+                                <p>Chief Secreatory</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            
+                
+                
+            </div> 
+        </div> 
+    </section>
+    <div className="container" id="center">
+        <div className="row">
+                <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
                             <img src="assets/images/Pooja Singh.jpg" alt="Volunteer"/>
@@ -103,7 +139,7 @@ export default function About()
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_2">
                         <div className="volunteer_image">
-                            <img src="assets/images/Kajal Singh Vice President.webp"  alt="Volunteer"/>
+                            <img src="assets/images/Kajal.jpeg"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -114,41 +150,6 @@ export default function About()
                         </div>
                     </div> 
                 </div>
-                
-            </div> 
-        </div> 
-    </section>
-    <div className="container" id="center">
-        <div className="row">
-            <div className="col-lg-3 col-sm-12">
-                    <div className="single_volunteer mt-30 volunteer_color_4">
-                        <div className="volunteer_image">
-                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" className="center" alt="Volunteer"/>
-                             
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Manorama Ji</a></h5>
-                                <p>Chief Secreatory</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_3">
-                        <div className="volunteer_image">
-                            <img src="assets/images/Shalini Pandey Vice President.jpg"  alt="Volunteer"/>
-                             
-                        </div>
-                        <div className="volunteer_content d-flex align-items-center justify-content-center">
-                            <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Shalini Pandey</a></h5>
-                                <p>Vice President</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-                
                 <div className="col-lg-3 col-sm-12" >
                     <div className="single_volunteer mt-30 volunteer_color_4" >
                         <div className="volunteer_image" >
@@ -166,7 +167,6 @@ export default function About()
         </div>
         </div>
         &nbsp;
-    
     <section className="video_area_3 pt-80 pb-130 bg_cover" style={{backgroundImage: 'url(assets/images/videobg.jpg)'}}>
         <div className="container">
             <div className="row align-items-center">
@@ -178,8 +178,8 @@ export default function About()
                 <div className="col-lg-6">
                     <div className="video_content_3 mt-45">
                         <h4 className="video_title">We served more then 50k+ peoples</h4>
-                        <p>Parth Charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
-                        <a href="#" className="main-btn"><i className="fa fa-heart"></i> Donate  Now</a>
+                        <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
+                        
                     </div> 
                 </div>
             </div> 
