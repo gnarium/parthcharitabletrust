@@ -106,7 +106,7 @@ export default function Home() {
                                     <a class="active" id="hospital-tab" data-toggle="tab" href="#hospital" role="tab" aria-controls="hospital" aria-selected="true">
                                         <div class="campaing_items items_color_1 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/Women and child development icon.png" style={{width:'80px'}}  alt="icon"/>
+                                                <img src="assets/images/Women and child development icon.webp" style={{width:'80px'}}  alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title" style={{textAlign:'justify'}}>Women and Child Development </h4>
@@ -119,7 +119,7 @@ export default function Home() {
                                     <a id="cancer-tab" data-toggle="tab" href="#cancer" role="tab" aria-controls="cancer" aria-selected="false">
                                         <div class="campaing_items items_color_2 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/Child Education Icon.png" style={{width:'80px'}} alt="icon"/>
+                                                <img src="assets/images/Child Education Icon.webp" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title" style={{textAlign:'justify'}}>Child Education </h4>
@@ -132,7 +132,7 @@ export default function Home() {
                                     <a id="environtment-tab" data-toggle="tab" href="#environtment" role="tab" aria-controls="environtment" aria-selected="false">
                                         <div class="campaing_items items_color_3 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/Enviromental protection.png" style={{width:'80px'}} alt="icon"/>
+                                                <img src="assets/images/Enviromental protection.webp" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 style={{textAlign:'justify'}} class="items_title">Environmental Protection </h4>
