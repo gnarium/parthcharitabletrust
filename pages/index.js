@@ -421,6 +421,7 @@ export default function Home() {
                         
                         </div> 
                 </div>
+&nbsp;
                 <div className="col-lg-6 col-sm-6">
                     
                 <h3 className="title">Follow Us On Twitter</h3>
