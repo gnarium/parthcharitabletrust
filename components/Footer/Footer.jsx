@@ -34,7 +34,7 @@ export default function Footer()
                             <div className="footer_link mt-50">
                                 <h5 className="footer_title">Follow Us</h5>
                                 <ul className="link">
-                                    <li><Link href="https://www.facebook.com/पार्थ-चैरिटेबल-सोसाइटी-101693645043791/"><a ><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;Facebook</a></Link></li>
+                                    <li><Link href="https://www.facebook.com/parthcharitablesociety/"><a ><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;Facebook</a></Link></li>
                                     <li><Link href="https://in.pinterest.com/anitasinghadhyaksh/_saved/"><a ><i class="fa fa-pinterest" aria-hidden="true"></i>&nbsp;Instagram</a></Link></li>
                                     
                                     <li><Link href="https://twitter.com/AnitaSi41811963"><a><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;Twitter</a></Link></li>
