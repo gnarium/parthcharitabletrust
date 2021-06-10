@@ -435,7 +435,7 @@ export default function Home() {
                 <h3 className="title">Follow Us On Youtube</h3>
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <embed style={{width:'1000px',height:'450px'}} src="https://www.youtube.com/embed/4Vo258iM4F8"></embed>  
+                            <embed style={{width:'300px',height:'300px'}} src="https://www.youtube.com/embed/4Vo258iM4F8"></embed>  
                         </div>
                     </div> 
                 </div>
