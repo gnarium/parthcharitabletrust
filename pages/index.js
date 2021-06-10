@@ -430,7 +430,7 @@ export default function Home() {
                         </div>
                     </div> 
                 </div>
-                <div className="col-lg-12 col-sm-12">
+                <div className="col-lg-12 col-sm-6">
                     
                 <h3 className="title">Follow Us On Youtube</h3>
                     <div className="single_volunteer mt-30 volunteer_color_4">
