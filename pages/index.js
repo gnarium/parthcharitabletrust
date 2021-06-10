@@ -51,23 +51,7 @@ export default function Home() {
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
                         
-                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-                            Donate Nowx
-                        </Button>
-                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
-                            
-                                <DialogContent>
-                                    <DialogContentText>
-                                        Your Small Donation Can Make A Change.
-                                    </DialogContentText >
-                                </DialogContent>
-                            <DialogActions>
-                                <Button onClick={handleClose} color="primary" autoFocus>
-                                    Close
-                                </Button>
-                            </DialogActions>
-                        </Dialog>
-                    </div> 
+                                            </div> 
                 </div>
                 <div class="col-lg-4">
                     <div class="single_services active_2 text-center services_2">
@@ -78,22 +62,7 @@ export default function Home() {
                             <h4 class="services_title"><a href="#">Donate Now</a></h4>
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-                            Membership PopUp
-                        </Button>
-                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
-                                <DialogContent>
-                                    <DialogContentText id="alert-dialog-description">
-                                        Become A Volunteer Of Our Organization And Make A Change By Helping Others.
-                                    </DialogContentText>
-                                </DialogContent>
-                            <DialogActions>
-                                <Button onClick={handleClose} color="primary" autoFocus>
-                                    Close
-                                </Button>
-                            </DialogActions>
-                        </Dialog>
-
+                        
                     </div> 
                 </div>
                 <div class="col-lg-4">
@@ -105,22 +74,7 @@ export default function Home() {
                             <h4 class="services_title"><a href="#">Send Gift</a></h4>
                             <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                        <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-                            Send Gift
-                        </Button>
-                        <Dialog fullScreen={fullScreen} open={open} onClose={handleClose} aria-labelledby="responsive-dialog-title">
-                                <DialogContent>
-                                    <DialogContentText id="alert-dialog-description">
-                                        A Gift can give a person smile on his face so give a gift of donation and help them to grow.
-                                    </DialogContentText>
-                                </DialogContent>
-                                <DialogActions>
-                                    
-                                    <Button  onClick={handleClose} color="primary" autoFocus>
-                                        Close
-                                    </Button>
-                                </DialogActions>
-                        </Dialog>
+                        
                     </div> 
                 </div>
             </div> 
