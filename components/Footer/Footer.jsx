@@ -11,7 +11,7 @@ export default function Footer()
                     <div className="col-lg-4 col-md-6 order-md-1 order-lg-1">
                         <div className="footer_about mt-50">
                             <a href="#">
-                                <img src="assets/images/Parth_Charitable_Society_Logo.webp" alt="Logo" style={{height:'80px',width:'80px'}}/>
+                                <img src="assets/images/Parth Charitable Society Logo.webp" alt="Logo" style={{height:'80px',width:'80px'}}/>
                             </a>
                             
                             <p style={{textAlign:'justify'}}>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.</p>
