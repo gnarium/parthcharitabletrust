@@ -413,8 +413,9 @@ export default function Home() {
                     <h3 className="title">Follow Us On Facebook</h3>
                         <div className="single_volunteer mt-30 volunteer_color_3">
                             <div className="volunteer_image">
-                            <div class="fb-page" data-href="https://www.facebook.com/&#x92a;&#x93e;&#x930;&#x94d;&#x925;-&#x91a;&#x948;&#x930;&#x93f;&#x91f;&#x947;&#x92c;&#x932;-&#x938;&#x94b;&#x938;&#x93e;&#x907;&#x91f;&#x940;-101693645043791/" data-tabs="timeline" data-width="600" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/&#x92a;&#x93e;&#x930;&#x94d;&#x925;-&#x91a;&#x948;&#x930;&#x93f;&#x91f;&#x947;&#x92c;&#x932;-&#x938;&#x94b;&#x938;&#x93e;&#x907;&#x91f;&#x940;-101693645043791/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/&#x92a;&#x93e;&#x930;&#x94d;&#x925;-&#x91a;&#x948;&#x930;&#x93f;&#x91f;&#x947;&#x92c;&#x932;-&#x938;&#x94b;&#x938;&#x93e;&#x907;&#x91f;&#x940;-101693645043791/"></a></blockquote></div>
-                                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0&appId=810425859719573&autoLogAppEvents=1" nonce="klqXJpYg"></script>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fparthcharitablesociety%2F&tabs=timeline&width=340&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style={{border:'none',overflow:'hidden'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            
+                            
         
                             </div>
                         
