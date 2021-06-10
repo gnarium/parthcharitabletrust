@@ -426,7 +426,7 @@ export default function Home() {
                 <h3 className="title">Follow Us On Twitter</h3>
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                        <a class="twitter-timeline" data-width="600" data-height="600" data-theme="dark" href="https://twitter.com/AnitaSi41811963?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+                        <a class="twitter-timeline" data-width="340" data-height="500" data-theme="dark" href="https://twitter.com/AnitaSi41811963?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
                         </div>
                     </div> 
                 </div>
