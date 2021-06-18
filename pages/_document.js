@@ -24,6 +24,7 @@ class MyDocument extends Document {
         <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/default.css"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
+         <link rel="canonical" href="https://www.parthcharitablesociety.org" />
         
         </Head>
         <body>
