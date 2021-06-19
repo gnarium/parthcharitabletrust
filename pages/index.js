@@ -129,6 +129,7 @@ render() {
                   >
                       <div>
                           <h1>Send A Gift</h1>
+                            &nbsp;
                         <p>A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
                 
