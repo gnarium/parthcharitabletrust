@@ -260,4 +260,12 @@ a {
 {
   margin-left: -25px;
 }
+
+input[type=button]{
+  padding: 8px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
     
