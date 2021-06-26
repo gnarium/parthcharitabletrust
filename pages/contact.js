@@ -30,7 +30,7 @@ export default function Contact()
                             <img src="assets/images/section_icon.png" alt="Icon"/>
                             <h3 className="title">Get in touch</h3>
                         </div> 
-	                           <form action=" https://formspree.io/f/xbjpwvlq">
+	                           <form action="https://formspree.io/f/xbjpwvlq" method="POST">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="single_form">
