@@ -10,7 +10,7 @@ const Login = () => {
     const router = useRouter()
     const userLogin = async(e) => {
         e.preventDefault()
-        let resp = await fetch(`http://localhost:3001/api/login`, {
+        let resp = await fetch(`${baseUrl}/api/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
