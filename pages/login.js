@@ -1,40 +1,36 @@
 import Head from 'next/head'
-import {useState} from 'react'
+import { useState } from 'react'
 import baseUrl from '../helpers/baseUrl'
 import Link from 'next/link'
 import cookie from 'js-cookie'
 import { useRouter } from 'next/router'
-const Login = () =>{
-    const [email,setEmail]=useState("")
-    const [password,setPassword]=useState("")
+const Login = () => {
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
     const router = useRouter()
-    const userLogin = async (e)=>
-    {
+    const userLogin = async(e) => {
         e.preventDefault()
-        fetch(`${baseUrl}/api/login`,{
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
+        let resp = await fetch(`http://localhost:3001/api/login`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
             },
-            body:JSON.stringify({
+            body: JSON.stringify({
                 email,
                 password
             })
         })
-        const res2 = await resizeBy.json()
-        if(res2.error)
-        {
-            M.toast({html: res2.error,classes:"red"})
-        }
-        else
-        {
-            console.log(res2)
-            cookie.set('token',res.token)
-            router.push('/account')
+        const res2 = await resp.json();
+        if (res2.error) {
+            M.toast({ html: res2.error, classes: "red" })
+        } else {
+            console.log("Response of login", res2)
+            cookie.set('token', res2.token);
+            router.push('/create')
         }
     }
     return (
-        <div>
+         <div>
     <section className="page_banner bg_cover" style={{backgroundImage: 'url(assets/images/slider-1.jpg)'}}>
         <div className="container">
             <div className="row">
@@ -61,7 +57,7 @@ const Login = () =>{
                             <img src="assets/images/section_icon.png" alt="Icon"/>
                             <h3 className="title">For Admin Login</h3>
                         </div> 
-	                           <form onSubmit={(e)=>userLogin(e)}>
+                               <form onSubmit={(e)=>userLogin(e)}>
                             <div className="row">
                             <div className="col-md-12">
                                 <div className="single_form">
@@ -79,7 +75,7 @@ const Login = () =>{
                                     <button className="main-btn" name="submit" type="submit" value="Submit">Login</button>
                                 </div> 
                             </div>
-                            <Link href="/signup"><a><h5>Don't  Have a Account</h5></a></Link>
+                            
                         </div> 
                     </form>
                 </div> 
@@ -91,7 +87,8 @@ const Login = () =>{
     
     
     </div>
+   
     )
 }
-  
+
 export default Login
