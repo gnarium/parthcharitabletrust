@@ -115,7 +115,7 @@ const Galley = ({products})=>
 
 export  async function getServerSideProps()
 {
-    const res = await  fetch(`${baseUrl}/api/fetch-imgs`)
+    const res = await  fetch(`https://www.parthcharitablesociety.org/api/fetch-imgs`)
     const data = await res.json()
     console.log('dtttt',data);
     return {
