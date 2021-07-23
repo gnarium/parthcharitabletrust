@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState,useEffect } from 'react'
 import { useRouter } from 'next/router';
-import EditModal from '../components/edit-modal/editModal.js';
+//import EditModal from '../components/edit-modal/editModal.js';
 
 
 const Create = ()=>{
