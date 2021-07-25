@@ -33,15 +33,9 @@ export default function About()
                 <div className="col-lg-6">
                     <div className="about_content_3 mt-45">
                         <h3 className="about_title">About Parth Charitable Society</h3>
-                        <p style={{textAlign:'justify'}}>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form
-                        an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.
-                        Parth Charitable Society also supports “cleaning air” , gov initiatives like “cleaning rivers” , “safai abhiyan” and many more. 
+                        <p style={{textAlign:'justify'}}>Parth Charitable Society is founded by Mrs Anita Singh Rajput . She is the top most pillar of this organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disabled people and personnel who needs support. This organization always try to help the needy peoples by all means. Parth Charitable Society also supports “cleaning air” , govt initiatives like “cleaning rivers” , “safai abhiyan” and many more. 
                         </p>
-                        <p style={{textAlign:'justify'}}>The main moto of organization is to help women and empower them to take care of themselves 
-                        So that one day they each and every woman feels proud. This organization also helped people in covid-19 lockdown period when people need food Mrs Anita Singh ji decided to help people 
-                        In this emergency and the distributed food in local colonies either they are poor or not their team help everyone . It is also the support of members of this organization which makes this organization stand among the crowd and become unique .
-                        The love of Mrs Anita Rajput Sing Ji for children can be seen in the work areas  and pictures of organizations as we can say “The mother knows what their children needs  ” and yes their effort for poor children is undoubtedly heart touching like distributing food and clothes in slum areas . 
-                        Organizing art competitions to encourage children for creativity is the key point of whole organizations </p>
+                        <p style={{textAlign:'justify'}}>The main moto of this organization is to help women and empower them to take care of themselves, so that one day each and every woman feels proud. This organization also helped peoples  in covid-19 lockdown period, when people needed food and medicines, Mrs Anita Singh ji decided to help them in this emergency.  She  distributed food in local colonies whether they are poor or not, her team helped each and everyone . Due to support of members of this organization,  this organization is glooming and became  unique among other irganisation. The love of Mrs Anita Rajput Sing Ji for children can be seen in the work areas and pictures of organizations as we can say “The mother knows what their children needs ” and yes their effort for poor children is undoubtedly heart touching like distributing food and clothes in slum areas . Organizing art competitions to encourage children for creativity is the key point of our organization.</p>
                         
                     </div> 
                 </div>
