@@ -4,33 +4,16 @@ import emailjs from 'emailjs-com';
 import {useState} from 'react'
 export default function Contact()
 {
-    const [name,setName] =useState("")
-    const [contact,setContactNumber] =useState("")
-    const [email,setEmail] =useState("")
-    const [message,setMessage] =useState("")
+   function sendEmail(e) {
+    e.preventDefault();
 
-    const submitHandler =async (e) => {
-        e.preventDefault();
-        console.log("Contact data",name,email,message,contact);
-        let dt = {
-            name,email,message,contact
-        }
-        let resp = await fetch(`http://localhost:3001/api/contact`, {
-            method: "POST",
-            headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(dt)
-        })
-        const res2 = await resp.json();
-        if (res2.error) {
-            console.log("Response of login", res2)
-        } else {
-
-        }
-    }
-
+    emailjs.sendForm('service_hy9133o', 'template_jjpf8o4', e.target, 'user_YZibifdWgZIlO0dN2WmO7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }  
     return(
         <div>
     <section className="page_banner bg_cover" style={{backgroundImage: 'url(assets/images/slider-1.jpg)'}}>
@@ -58,26 +41,26 @@ export default function Contact()
                             <img src="assets/images/section_icon.png" alt="Icon"/>
                             <h3 className="title">Get in touch</h3>
                         </div> 
-	                           <form onSubmit={(e)=>submitHandler(e)}>
+	                           <form  onSubmit={sendEmail}>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="single_form">
-                                        <input type="text" name="name" value={name} id="full-name"className="form-control" onChange={(e)=>setName(e.target.value)} placeholder="Your Name" required=""/>            
+                                        <input type="text" name="user_name"   className="form-control"  placeholder="Your Name" required=""/>            
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="single_form">
-                                        <input type="text" name="_replyto" value={contact} className="form-control" id="email-address" onChange={(e)=>setContactNumber(e.target.value)} placeholder="Contact Number" required=""/>
+                                        <input type="text" name="contact_number"  className="form-control" id="email-address"  placeholder="Contact Number" required=""/>
                                     </div> 
                                 </div>
                                 <div className="col-md-12">
                                     <div className="single_form">
-                                        <input type="email" name="_replyto" value={email} className="form-control" id="email-address" onChange={(e)=>setEmail(e.target.value)} placeholder="Email " required=""/>
+                                        <input type="email" name="user_email"  className="form-control" id="email-address"  placeholder="Email " required=""/>
                                     </div> 
                                 </div>
                                 <div className="col-md-12">
                                     <div className="single_form">
-                                        <textarea rows="5" name="message" id="message" value={message} onChange={(e)=>setMessage(e.target.value)} className="form-control" placeholder="Message" required=""></textarea>
+                                        <textarea rows="5" name="message" id="message"  className="form-control" placeholder="Message" required=""></textarea>
                                     </div> 
                                 </div>
 	    			         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
