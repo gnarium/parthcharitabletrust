@@ -3,11 +3,23 @@ import User from '../../models/User'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 
+import NextCors from 'nextjs-cors';
+
 initDB()
 
+const corsMiddleware = (handler) => {
+    return async (req, res) => {
+        const corsPromise = await NextCors(req, res, {
+            // Options
+            methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+            origin: '*',
+            optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+        });
+        return handler(req, res);
+    }
+}
 
-
-export default async (req,res)=>
+export default corsMiddleware(async (req,res)=>
 {
     const {name,email,password}=req.body
     try{
@@ -38,4 +50,4 @@ export default async (req,res)=>
     {
         console.log(err)
     }
-}
+});
