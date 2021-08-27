@@ -7,17 +7,6 @@ import NextCors from 'nextjs-cors';
 
 initDB()
 
-const corsMiddleware = (handler) => {
-    return async (req, res) => {
-        const corsPromise = await NextCors(req, res, {
-            // Options
-            methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-            origin: '*',
-            optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
-        });
-        return handler(req, res);
-    }
-}
 
 export default corsMiddleware(async (req,res)=>
 {
