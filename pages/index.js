@@ -2,6 +2,16 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React, { useRef, useState , Component } from "react";
 import ReactHover from 'react-hover'
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useTheme } from '@material-ui/core/styles';
+
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,6 +24,7 @@ import SwiperCore, {
 
   // install Swiper modules
 SwiperCore.use([Autoplay,Pagination,Navigation]);
+import Modal from 'react-awesome-modal';
 export default class Home extends Component {
   constructor(props) {
         super(props);
@@ -68,21 +79,23 @@ render() {
 
 
 
-//                       <input type="button" value="Open" onClick={() => this.openModal()} />
-//                 <Modal
-//                     visible={this.state.visible}
-//                     width="500"
-//                     height="300"
-//                     effect="fadeInLeft"
-//                     onClickAway={() => this.closeModal()}
-//                 >
-//                     <div>
-//                         <p>Some Contents</p>
-//                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-//                     </div>
-//                 </Modal>
+                      <input type="button" value="Open" onClick={() => this.openModal()} />
+                <Modal
+                    visible={this.state.visible}
+                    width="500"
+                    height="300"
+                    effect="fadeInLeft"
+                    onClickAway={() => this.closeModal()}
+                >
+                    <div>
+                    <h1>Send A Gift</h1>
+                    &nbsp;
+                        <p>A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    </div>
+                </Modal>
 
-//                     </div>
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_services active_2 text-center services_2">
@@ -127,11 +140,11 @@ render() {
                       onClickAway={() => this.closeModal()}
                   >
                       <div>
-                          <h1>Send A Gift</h1>
-                            &nbsp;
-                        <p>A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
-                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-                
+                      <h1>Send A Gift</h1>
+                      &nbsp;
+                          <p>A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
+                          <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+
                       </div>
                   </Modal>
 
