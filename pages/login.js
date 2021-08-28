@@ -22,8 +22,8 @@ const Login = () => {
         })
         const res2 = await resp.json();
         if (res2.error) {
-            console.log("Response of login", res2)
-//             M.toast({ html: res2.error, classes: "red" })
+           // console.log("Response of login", res2)
+             M.toast({ html: res2.error, classes: "red" })
         } else {
             console.log("Response of login", res2)
             cookie.set('token', res2.token);
