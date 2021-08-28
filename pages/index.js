@@ -68,19 +68,19 @@ render() {
 
 
 
-                      <input type="button" value="Open" onClick={() => this.openModal()} />
-                <Modal
-                    visible={this.state.visible}
-                    width="500"
-                    height="300"
-                    effect="fadeInLeft"
-                    onClickAway={() => this.closeModal()}
-                >
-                    <div>
-                        <p>Some Contents</p>
-                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-                    </div>
-                </Modal>
+//                       <input type="button" value="Open" onClick={() => this.openModal()} />
+//                 <Modal
+//                     visible={this.state.visible}
+//                     width="500"
+//                     height="300"
+//                     effect="fadeInLeft"
+//                     onClickAway={() => this.closeModal()}
+//                 >
+//                     <div>
+//                         <p>Some Contents</p>
+//                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+//                     </div>
+//                 </Modal>
 
                     </div>
                 </div>
