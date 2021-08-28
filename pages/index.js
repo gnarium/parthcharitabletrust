@@ -82,7 +82,7 @@ render() {
 //                     </div>
 //                 </Modal>
 
-                    </div>
+//                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_services active_2 text-center services_2">
