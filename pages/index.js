@@ -14,7 +14,6 @@ import SwiperCore, {
 
   // install Swiper modules
 SwiperCore.use([Autoplay,Pagination,Navigation]);
-import Modal from 'react-awesome-modal';
 export default class Home extends Component {
   constructor(props) {
         super(props);
