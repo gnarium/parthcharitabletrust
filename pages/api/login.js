@@ -7,7 +7,7 @@ import jwt from 'jsonwebtoken'
 initDB()
 
 
-export default corsMiddleware(async (req,res)=>
+export default async (req,res)=>
 {
     const {name,email,password}=req.body
     try{
@@ -38,4 +38,4 @@ export default corsMiddleware(async (req,res)=>
     {
         console.log(err)
     }
-});
+};
