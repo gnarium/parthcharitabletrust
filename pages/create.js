@@ -29,7 +29,7 @@ const Create = ()=>{
         formData.append("category",category);
         formData.append("imgName",name);
 
-        let resp = await fetch(`${baseUrl}/api/upload-pic`, {
+        let resp = await fetch(`https://www.parthcharitablesociety.org//api/upload-pic`, {
             method: "POST",
             body: formData
         })
@@ -77,7 +77,7 @@ const Create = ()=>{
    
    const deleteImg = async (_id) => {
     console.log("Iddd",_id)
-        let resp = await fetch(`${baseUrl}/api/delete-img/${_id}`, {
+        let resp = await fetch(`https://www.parthcharitablesociety.org//api/delete-img/${_id}`, {
                 method: "DELETE"
             })
         const res2 = await resp.json();
